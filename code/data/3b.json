@@ -1,0 +1,62 @@
+{
+    "skills": ["mathematics", "computers"],
+    "tasks": [{
+            "name": "T1",
+            "duration": 2,
+            "precedences": [],
+            "skills": [0, 1]
+        },
+        {
+            "name": "T2",
+            "duration": 1,
+            "precedences": [],
+            "skills": [1]
+        },
+        {
+            "name": "T3",
+            "duration": 3,
+            "precedences": [],
+            "skills": [0]
+        },
+        {
+            "name": "T4",
+            "duration": 1,
+            "precedences": [],
+            "skills": [0, 1]
+        },
+        {
+            "name": "T5",
+            "duration": 1,
+            "precedences": [],
+            "skills": [0, 1]
+        },
+        {
+            "name": "T6",
+            "duration": 1,
+            "precedences": [],
+            "skills": [0, 1]
+        }
+    ],
+    "elements": [{
+            "name": "E1",
+            "skills": [[0, 4], [1, 5]]
+        },
+        {
+            "name": "E2",
+            "skills": [[0, 3], [1, 4]]
+        },
+        {
+            "name": "E3",
+            "skills": [[0, 5]]
+        },
+        {
+            "name": "E4",
+            "skills": [[1, 4]]
+        },
+        {
+            "name": "E5",
+            "skills": [[0, 1],[1, 1]]
+        }
+
+    ]
+}

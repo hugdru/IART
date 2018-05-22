@@ -1,0 +1,56 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css"
+          integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.min.js"
+            integrity="sha256-VKITM616rVzV+MI3kZMNUDoY5uTsuSl1ZvEeZhNoJVk=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"
+            integrity="sha256-+JMHsXRyeTsws/tzbIh5YHQxRdKCuNjmvNcTFtY6DLc=" crossorigin="anonymous"></script>
+
+    <script src="timeline.js"></script>
+    <script src="main.js"></script>
+    <script src="info.js"></script>
+    <style>
+        #info {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+
+        #visualizer {
+            display: none;
+            width: 100%;
+        }
+
+        #timeline {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <label>Json Problem Data
+        <input id="problemData" type="file"></label>
+
+    <label>Json Problem Result
+        <input id="problemResult" type="file"></label>
+
+    <input id="build" type="submit" value="Build Timeline">
+</div>
+
+<div id="visualizer">
+    <h2>Timeline</h2>
+    <div id="timeline"></div>
+    <div id="info">
+        <div id="tasks"></div>
+        <div id="elements"></div>
+    </div>
+    <h2>Total Duration</h2>
+    <p id="totalDuration"></p>
+</div>
+
+</body>
+</html>

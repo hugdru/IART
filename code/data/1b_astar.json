@@ -1,0 +1,70 @@
+[
+  {
+    "timeSpan": {
+      "start": 0.9472135954999579,
+      "end": 1.8416407864998736,
+      "duration": 0.8944271909999159
+    },
+    "elements": [
+      {
+        "id": 0,
+        "name": "E1"
+      }
+    ],
+    "task": {
+      "id": 0,
+      "name": "T1"
+    }
+  },
+  {
+    "timeSpan": {
+      "start": 0.0,
+      "end": 0.5,
+      "duration": 0.5
+    },
+    "elements": [
+      {
+        "id": 0,
+        "name": "E1"
+      }
+    ],
+    "task": {
+      "id": 1,
+      "name": "T2"
+    }
+  },
+  {
+    "timeSpan": {
+      "start": 0.0,
+      "end": 1.5,
+      "duration": 1.5
+    },
+    "elements": [
+      {
+        "id": 1,
+        "name": "E2"
+      }
+    ],
+    "task": {
+      "id": 2,
+      "name": "T3"
+    }
+  },
+  {
+    "timeSpan": {
+      "start": 0.5,
+      "end": 0.9472135954999579,
+      "duration": 0.4472135954999579
+    },
+    "elements": [
+      {
+        "id": 0,
+        "name": "E1"
+      }
+    ],
+    "task": {
+      "id": 3,
+      "name": "T4"
+    }
+  }
+]

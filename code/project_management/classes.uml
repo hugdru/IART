@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="252.0" y="952.0">state.AStarCosts</node>
+    <node x="199.0" y="1321.0">state.State.ElementsCombination</node>
+    <node x="0.0" y="1711.0">parser.Parser</node>
+    <node x="12.25" y="1082.0">state.State</node>
+    <node x="1112.0" y="1503.0">output.ElementSerializer</node>
+    <node x="863.0" y="1082.0">utils.Strings</node>
+    <node x="700.0" y="134.5">problem_data.Element</node>
+    <node x="0.0" y="1321.0">state.State.ElementToCombine</node>
+    <node x="504.0" y="952.0">state.BFSCosts</node>
+    <node x="749.0" y="1711.0">parser.RawElement</node>
+    <node x="525.0" y="1607.0">output.TaskSerializer</node>
+    <node x="1048.0" y="147.5">problem_data.Skill</node>
+    <node x="591.0" y="1399.0">output.RangeDoubleSerializer</node>
+    <node x="804.5" y="0.0">utils.Copyable</node>
+    <node x="0.0" y="1503.0">parser.RawTaskDeserializer</node>
+    <node x="0.0" y="1399.0">parser.RawElementDeserializer</node>
+    <node x="348.0" y="478.5">problem_data.ProblemData.Builder</node>
+    <node x="0.0" y="1607.0">utils.GsonJsonArray</node>
+    <node x="1109.0" y="478.0">problem_data.Skill.Value</node>
+    <node x="0.0" y="952.0">state.BranchAndBoundCosts</node>
+    <node x="18.5" y="478.0">problem_data.Task.TaskBuilder</node>
+    <node x="1029.0" y="1607.0">algorithm.StateTraversal</node>
+    <node x="348.0" y="187.0">problem_data.ProblemData</node>
+    <node x="0.0" y="109.0">problem_data.Task</node>
+    <node x="566.0" y="1503.0">output.PartialResultSerializer</node>
+    <node x="529.0" y="1711.0">parser.RawTask</node>
+    <node x="234.5" y="739.0">algorithm.Costs</node>
+    <node x="781.0" y="739.0">state.TaskResult</node>
+    <node x="291.0" y="1711.0">Main</node>
+    <node x="440.0" y="1082.0">output.ResultOutput</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="problem_data.ProblemData.Builder" target="problem_data.ProblemData">
+      <point x="0.0" y="-107.5" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="problem_data.Task.TaskBuilder" target="problem_data.Task">
+      <point x="0.0" y="-108.0" />
+      <point x="0.0" y="159.5" />
+    </edge>
+    <edge source="problem_data.Element" target="utils.Copyable">
+      <point x="0.0" y="-134.0" />
+      <point x="0.0" y="29.5" />
+    </edge>
+    <edge source="state.State.ElementToCombine" target="state.State">
+      <point x="0.0" y="-16.5" />
+      <point x="89.5" y="1296.0" />
+      <point x="102.75" y="1296.0" />
+      <point x="-90.5" y="94.5" />
+    </edge>
+    <edge source="state.BFSCosts" target="algorithm.Costs">
+      <point x="0.0" y="-42.5" />
+      <point x="620.0" y="927.0" />
+      <point x="457.0" y="927.0" />
+      <point x="89.0" y="81.5" />
+    </edge>
+    <edge source="state.AStarCosts" target="algorithm.Costs">
+      <point x="0.0" y="-42.5" />
+      <point x="0.0" y="81.5" />
+    </edge>
+    <edge source="problem_data.Skill" target="utils.Copyable">
+      <point x="0.0" y="-121.0" />
+      <point x="1159.5" y="89.0" />
+      <point x="887.8" y="89.0" />
+      <point x="23.799999999999955" y="29.5" />
+    </edge>
+    <edge source="state.State.ElementsCombination" target="state.State">
+      <point x="0.0" y="-16.5" />
+      <point x="297.0" y="1296.0" />
+      <point x="283.75" y="1296.0" />
+      <point x="90.5" y="94.5" />
+    </edge>
+    <edge source="problem_data.ProblemData" target="utils.Copyable">
+      <point x="0.0" y="-81.5" />
+      <point x="514.0" y="89.0" />
+      <point x="840.2" y="89.0" />
+      <point x="-23.799999999999955" y="29.5" />
+    </edge>
+    <edge source="problem_data.Skill.Value" target="problem_data.Skill">
+      <point x="-55.75" y="-108.0" />
+      <point x="1164.75" y="453.0" />
+      <point x="1159.5" y="453.0" />
+      <point x="0.0" y="121.0" />
+    </edge>
+    <edge source="problem_data.Task" target="utils.Copyable">
+      <point x="0.0" y="-159.5" />
+      <point x="164.0" y="79.0" />
+      <point x="816.4" y="79.0" />
+      <point x="-47.60000000000002" y="29.5" />
+    </edge>
+    <edge source="state.BranchAndBoundCosts" target="algorithm.Costs">
+      <point x="0.0" y="-42.5" />
+      <point x="116.0" y="927.0" />
+      <point x="279.0" y="927.0" />
+      <point x="-89.0" y="81.5" />
+    </edge>
+    <edge source="problem_data.Skill.Value" target="utils.Copyable">
+      <point x="55.75" y="-108.0" />
+      <point x="1276.25" y="453.0" />
+      <point x="1281.5" y="453.0" />
+      <point x="1281.5" y="79.0" />
+      <point x="911.6" y="79.0" />
+      <point x="47.60000000000002" y="29.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5011173184357542" x="798.0" y="884.9999999999999" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

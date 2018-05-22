@@ -1,0 +1,8 @@
+digraph {
+  T1 [label="T1\n2d"];
+  T2 [label="T2\n1d"];
+  T3 [label="T3\n3d"];
+  T4 [label="T4\n1d"];
+  T1 -> {T2 T3};
+  T4 -> T3;
+}

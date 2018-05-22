@@ -1,0 +1,104 @@
+[
+  {
+    "timeSpan": {
+      "start": 0.0,
+      "end": 2.0,
+      "duration": 2.0
+    },
+    "elements": [
+      {
+        "id": 4,
+        "name": "E5"
+      }
+    ],
+    "task": {
+      "id": 0,
+      "name": "T1"
+    }
+  },
+  {
+    "timeSpan": {
+      "start": 2.0,
+      "end": 3.0,
+      "duration": 1.0
+    },
+    "elements": [
+      {
+        "id": 4,
+        "name": "E5"
+      }
+    ],
+    "task": {
+      "id": 1,
+      "name": "T2"
+    }
+  },
+  {
+    "timeSpan": {
+      "start": 4.0,
+      "end": 7.0,
+      "duration": 3.0
+    },
+    "elements": [
+      {
+        "id": 4,
+        "name": "E5"
+      }
+    ],
+    "task": {
+      "id": 2,
+      "name": "T3"
+    }
+  },
+  {
+    "timeSpan": {
+      "start": 3.0,
+      "end": 4.0,
+      "duration": 1.0
+    },
+    "elements": [
+      {
+        "id": 4,
+        "name": "E5"
+      }
+    ],
+    "task": {
+      "id": 3,
+      "name": "T4"
+    }
+  },
+  {
+    "timeSpan": {
+      "start": 7.0,
+      "end": 8.0,
+      "duration": 1.0
+    },
+    "elements": [
+      {
+        "id": 4,
+        "name": "E5"
+      }
+    ],
+    "task": {
+      "id": 4,
+      "name": "T5"
+    }
+  },
+  {
+    "timeSpan": {
+      "start": 8.0,
+      "end": 9.0,
+      "duration": 1.0
+    },
+    "elements": [
+      {
+        "id": 4,
+        "name": "E5"
+      }
+    ],
+    "task": {
+      "id": 5,
+      "name": "T6"
+    }
+  }
+]

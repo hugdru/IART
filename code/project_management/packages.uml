@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="202.0" y="161.0">output</node>
+    <node x="0.0" y="83.0">problem_data</node>
+    <node x="0.0" y="322.0">parser</node>
+    <node x="32.0" y="0.0">utils</node>
+    <node x="16.5" y="244.0">state</node>
+    <node x="180.0" y="322.0">Main</node>
+    <node x="0.0" y="161.0">algorithm</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="state" target="algorithm">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+    <edge source="problem_data" target="utils">
+      <point x="0.0" y="-16.5" />
+      <point x="0.0" y="16.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="282.0" y="248.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>Project Files</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+

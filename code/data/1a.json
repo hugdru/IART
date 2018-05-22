@@ -1,0 +1,37 @@
+{
+    "skills": ["design", "programming", "statistics"],
+    "tasks": [{
+            "name": "T1",
+            "duration": 2,
+            "precedences": [],
+            "skills": [0, 1]
+        },
+        {
+            "name": "T2",
+            "duration": 1,
+            "precedences": [0],
+            "skills": [2]
+        },
+        {
+            "name": "T3",
+            "duration": 3,
+            "precedences": [0, 3],
+            "skills": [0]
+        },
+        {
+            "name": "T4",
+            "duration": 1,
+            "precedences": [],
+            "skills": [1]
+        }
+    ],
+    "elements": [{
+            "name": "E1",
+            "skills": [[0, 5], [1, 5], [2, 4]]
+        },
+        {
+            "name": "E2",
+            "skills": [[0, 4], [1, 3]]
+        }
+    ]
+}
